@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+    <div class="weather-container">
+        <div class="weather-block">
+            <div class="weather-search-bar">
+                <input class="weather-input" type="text" placeholder="enter name of city" value="Lviv">
+                <button onclick="uploadData()" class="weather-btn">search</button>
+            </div>
+            <div class="weather-info">
+                <div class="weather-location">
+                    <span class="weather-city">city</span>
+                    <span class="weather-time">time</span>
+                </div>
+                <div class="weather-current">
+                    <span class="weather-feelslike-c">feels like c</span>
+                    <span class="weather-feelslike-f">feels like f</span>
+                    <span class="weather-cloud">cloud</span>
+                    <span class="weather-cloud"></span>
+                    <span class="weather-cloud"></span>
+                    <span class="weather-cloud"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./node_modules/axios/dist//axios.min.js"></script>
+<script src="./app.js"></script>
+</html>
