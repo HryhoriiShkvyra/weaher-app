@@ -1,1 +1,1 @@
-# weaher-app
+# weather-app
